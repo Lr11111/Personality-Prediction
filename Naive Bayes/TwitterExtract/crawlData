@@ -1,0 +1,6 @@
+from collections import Counter
+str = "god why are all the aliens in the wildstar so fuckin hot"
+c = Counter(str.split())
+
+print c["the"]
+
